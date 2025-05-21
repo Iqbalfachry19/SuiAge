@@ -15,7 +15,7 @@ By extracting the user's birth year from an identity document (such as Indonesia
   wallets and loading data
 - [pnpm](https://pnpm.io/) for package management
 
-## Starting your dApp
+## Starting dapp
 
 To install dependencies you can run
 
