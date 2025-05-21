@@ -6,6 +6,7 @@ It allows users to prove that they are above a certain age threshold (e.g., 18+)
 
 By extracting the user's birth year from an identity document (such as Indonesia’s KTP), a zk-SNARK proof is generated off-chain and verified on-chain. This enables trustless and privacy-preserving access control for age-restricted content in dApps, games, and DeFi applications.
 
+## Tech Stack
 - [React](https://react.dev/) as the UI framework
 - [TypeScript](https://www.typescriptlang.org/) for type checking
 - [Vite](https://vitejs.dev/) for build tooling

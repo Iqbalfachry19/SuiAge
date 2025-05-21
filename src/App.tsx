@@ -65,6 +65,9 @@ function App() {
           <Box p="4">
             {/* <WalletStatus /> */}
             {/* <Separator my="4" /> */}
+            <Text className="text-center text-lg font-semibold text-blue-500">
+              Verify your ID and mint NFT
+            </Text>
 
             <KtpOcr
               onExtractBirthdate={async (dob) => {
@@ -158,9 +161,7 @@ function App() {
                       onSuccess: (result) => {
                         console.log("success");
                         setIsProofValid(true);
-                        setMintStatus(
-                          `Digest: ${result.digest} ✅ Proof successfully!`,
-                        );
+                        setMintStatus(`Digest: ${result.digest}`);
                       },
                       onError: (err) => {
                         console.error(err);
@@ -296,6 +297,11 @@ function App() {
                   <Text size="2" mt="2">
                     Congratulations! You are have minted SuiAge successfully
                   </Text>
+                  <Separator my="2" />
+                  <Text size="2" mt="2">
+                    {mintStatus}
+                  </Text>
+
                   <BlobImage blobId="YdYyvSj3r70JuoWw_5lNuhMd8pWvMug7CwL55oO3d40" />
                 </Box>
               )}
