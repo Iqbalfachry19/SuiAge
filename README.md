@@ -6,6 +6,13 @@ It allows users to prove that they are above a certain age threshold (e.g., 18+)
 
 By extracting the user's birth year from an identity document (such as Indonesia’s KTP), a zk-SNARK proof is generated off-chain and verified on-chain. This enables trustless and privacy-preserving access control for age-restricted content in dApps, games, and DeFi applications.
 
+## SuiAgeNFT Integration
+
+Once a user is verified, they can mint an NFT as proof of their verified age status using the companion NFT project:
+
+👉 SuiAgeNFT GitHub Repository
+
+This NFT acts as a credential on-chain, signaling that the user has passed the age verification check.
 ## Tech Stack
 - [React](https://react.dev/) as the UI framework
 - [TypeScript](https://www.typescriptlang.org/) for type checking
