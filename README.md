@@ -10,7 +10,7 @@ By extracting the user's birth year from an identity document (such as Indonesia
 
 Once a user is verified, they can mint an NFT as proof of their verified age status using the companion NFT project:
 
-👉 SuiAgeNFT GitHub Repository
+👉 [SuiAgeNFT GitHub Repository] (https://github.com/Iqbalfachry19/SuiAgeNFT)
 
 This NFT acts as a credential on-chain, signaling that the user has passed the age verification check.
 ## Tech Stack
