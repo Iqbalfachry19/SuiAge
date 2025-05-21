@@ -1,7 +1,7 @@
 import {
   ConnectButton,
   useCurrentAccount,
-  useSuiClientQuery,
+  // useSuiClientQuery,
 } from "@mysten/dapp-kit";
 import { useSuiClient } from "@mysten/dapp-kit";
 import {
@@ -13,7 +13,7 @@ import {
   Card,
   Separator,
 } from "@radix-ui/themes";
-import { WalletStatus } from "./WalletStatus";
+// import { WalletStatus } from "./WalletStatus";
 import { useState } from "react";
 import KtpOcr from "./ocr";
 // import * as snarkjs from "snarkjs";
@@ -33,8 +33,8 @@ function App() {
   const account = useCurrentAccount();
   const suiClient = useSuiClient();
 
-  const wasmPath = "/circuits/main.wasm";
-  const zkeyPath = "/circuits/main_final.zkey";
+  // const wasmPath = "/circuits/main.wasm";
+  // const zkeyPath = "/circuits/main_final.zkey";
 
   return (
     <>

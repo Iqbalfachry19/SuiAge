@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const BlobImage = ({ blobId }: { blobId: string }) => {
   const [imageUrl, setImageUrl] = useState<string | null>(null);
