@@ -1,7 +1,10 @@
-# Sui dApp Starter Template
-blobId YdYyvSj3r70JuoWw_5lNuhMd8pWvMug7CwL55oO3d40
-This dApp was created using `@mysten/create-dapp` that sets up a basic React
-Client dApp using the following tools:
+# SuiAge
+## Project Description
+SuiAge is a zero-knowledge (ZK) age verification protocol built on the Sui blockchain.
+
+It allows users to prove that they are above a certain age threshold (e.g., 18+) without revealing their actual birthdate or any personal information.
+
+By extracting the user's birth year from an identity document (such as Indonesia’s KTP), a zk-SNARK proof is generated off-chain and verified on-chain. This enables trustless and privacy-preserving access control for age-restricted content in dApps, games, and DeFi applications.
 
 - [React](https://react.dev/) as the UI framework
 - [TypeScript](https://www.typescriptlang.org/) for type checking
@@ -33,4 +36,4 @@ To build your app for deployment you can run
 ```bash
 pnpm build
 ```
-# SuiAge
+
